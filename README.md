@@ -56,17 +56,6 @@ Docker · Scalability Testing · System Design · Logging & Monitoring
 
 # 📌 Projects
 
-### Todo App
-
-Full-stack CRUD application deployed on Render
-
-Features:
-
-* Authentication
-* REST APIs
-* MongoDB integration
-* Responsive UI
-
 ### Growcus
 
 AI-powered backend platform integrating LLM APIs and workflow automation
@@ -89,10 +78,24 @@ Features:
 * Database indexing basics
 * Redirect handling
 
+---
+
+### Todo App
+
+Full-stack CRUD application deployed on Render
+
+Features:
+
+* Authentication
+* REST APIs
+* MongoDB integration
+* Responsive UI
+
+  ---
 
 # 📊 DSA & Problem Solving
 
-* 100+ LeetCode problems solved in C++
+* 130+ LeetCode problems solved in C++
 * Following Striver A2Z Sheet
 * Strong focus on problem-solving and backend logic building
 
