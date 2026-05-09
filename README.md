@@ -77,6 +77,8 @@ AI-powered backend platform integrating LLM APIs and workflow automation
 
 Automation-focused backend tool
 
+---
+
 ### URL Shortener
 
 Backend-focused project using Node.js + MongoDB
