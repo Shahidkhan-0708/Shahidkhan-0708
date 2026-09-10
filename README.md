@@ -158,20 +158,33 @@
 </details>
 
 <details open>
-<summary><h3><b>🛒 [06] The-Farmer-Market & Jungle-Market — Full-Stack Commerce Ecosystem</b></h3></summary>
+<summary><h3><b>🌾 [06] The-Farmer-Market — AI Crop Ripeness Detection & Produce Platform</b></h3></summary>
 
-> **High-throughput marketplace platform connecting local producers and buyers with real-time catalog management.**
+> **Agricultural intelligence platform featuring AI/computer vision crop ripeness detection and direct farm-to-consumer goods management.**
 
 - **Core Capabilities**:
-  - 📦 **Scalable Catalog & Indexing**: Product indexing, inventory tracking, role-based order flows, and responsive UI.
-  - 💳 **Transaction Workflows**: Secure merchant management, item listings, and localized supply chain discovery.
-- **Tech Stack**: `TypeScript` • `React` • `Tailwind CSS` • `Node.js` • `PostgreSQL`
-- **Actions**: [📁 The-Farmer-Market](https://github.com/Shahidkhan-0708/The-Farmer-Market) • [📁 The-Jungle-Market](https://github.com/Shahidkhan-0708/The-Jungle-Market)
+  - 🍎 **Computer Vision Produce Grading**: Automated visual ripeness detection and quality assessment for harvested crops.
+  - 🚜 **Direct Producer Exchange**: Real-time supply tracking and direct logistics channel connecting farmers with local markets.
+- **Tech Stack**: `TypeScript` • `React` • `Computer Vision / AI` • `Tailwind CSS` • `Node.js` • `PostgreSQL`
+- **Actions**: [📁 GitHub Repository](https://github.com/Shahidkhan-0708/The-Farmer-Market)
 
 </details>
 
 <details open>
-<summary><h3><b>🔍 [07] Client_finder — High-Intent Prospect & Lead Scraping Pipeline</b></h3></summary>
+<summary><h3><b>🎨 [07] The-Jungle-Market — E-Commerce Marketplace for Artisans</b></h3></summary>
+
+> **Dedicated e-commerce marketplace platform empowering local artisans and handmade craftspeople with digital storefronts.**
+
+- **Core Capabilities**:
+  - 🛍️ **Artisan Storefronts & Catalog**: High-performance product showcase, bespoke item customization options, and multi-merchant inventory sync.
+  - 💳 **Seamless Commerce Workflow**: Integrated secure checkout, order fulfillment tracking, and responsive creator dashboard.
+- **Tech Stack**: `JavaScript / TypeScript` • `React` • `Node.js` • `Express` • `E-Commerce Architecture`
+- **Actions**: [📁 GitHub Repository](https://github.com/Shahidkhan-0708/The-Jungle-Market)
+
+</details>
+
+<details open>
+<summary><h3><b>🔍 [08] Client_finder — High-Intent Prospect & Lead Scraping Pipeline</b></h3></summary>
 
 > **Automated lead discovery, business entity extraction, and outreach scraping pipeline.**
 
@@ -184,7 +197,7 @@
 </details>
 
 <details open>
-<summary><h3><b>📦 [08] Food-Parcel-App — Cross-Platform Logistics Mobile Client</b></h3></summary>
+<summary><h3><b>📦 [09] Food-Parcel-App — Cross-Platform Logistics Mobile Client</b></h3></summary>
 
 > **Mobile delivery dispatch and parcel tracking client built with Dart & Flutter.**
 
