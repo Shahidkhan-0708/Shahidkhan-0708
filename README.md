@@ -27,7 +27,7 @@
 
 ---
 
-### 🏆 Dynamic GitHub Trophies & Milestones
+### 🏆 GitHub Trophies & Global Impact
 
 <div align="center">
   <a href="https://github.com/Shahidkhan-0708">
@@ -37,17 +37,17 @@
 
 ---
 
-### 🌟 Key Engineering Achievements & Milestones
+### 🌟 Key Engineering Achievements & Benchmarks
 
 <table>
   <tr>
     <td width="50%">
-      <b>🚀 High-Throughput Ingestion Engine</b><br/>
-      Designed and deployed a distributed multi-worker queue (BullMQ + Redis) capable of processing <b>10,000+ ATS job listings / day</b> with sub-second deduplication.
+      <b>🚀 10,000+ Ingestions / Day</b><br/>
+      Designed and deployed a distributed multi-worker queue (BullMQ + Redis) processing thousands of live listings with canonical SHA-256 deduplication.
     </td>
     <td width="50%">
       <b>🧠 Sub-Second Vector Retrieval</b><br/>
-      Engineered high-accuracy semantic matching with <code>pgvector</code> & Voyage AI, delivering <b>1024-dim cosine similarity search</b> across millions of candidate records.
+      Engineered high-accuracy semantic matching with <code>pgvector</code> & Voyage AI, delivering <b>1024-dim cosine similarity search</b> across deep profiles.
     </td>
   </tr>
   <tr>
@@ -56,20 +56,87 @@
       Implemented token & cost circuit breakers enforcing pre-call candidate budget caps, cutting unnecessary LLM inference spend by <b>40%+</b>.
     </td>
     <td width="50%">
-      <b>⚡ Full-Stack Realtime Reactive Console</b><br/>
-      Built full-stack React 19 + Fastify dashboards with <b>Supabase Realtime</b> logical replication streaming background agent telemetry directly to users.
+      <b>⚡ Realtime Reactive Telemetry</b><br/>
+      Engineered full-stack React 19 consoles with <b>Supabase Realtime</b> streaming agent runs, worker logs, and sentiment classification in real-time.
     </td>
   </tr>
 </table>
 
 ---
 
-### 🚀 Interactive Featured Projects & Systems
+### 🚀 Valued Repositories & Featured Systems *(Ascending Progression)*
 
 <details open>
-<summary><h3><b>🔥 01. CareerRizz — Autonomous Multi-Agent Career Platform</b></h3></summary>
+<summary><h3><b>📦 [01] Food-Parcel-App — Cross-Platform Logistics Mobile Client</b></h3></summary>
 
-> **Full-Stack Autonomous System for Real-Time ATS Discovery, Semantic Vector Matching & Policy-Gated Outreach**
+> **Mobile delivery dispatch and parcel tracking client built with Dart & Flutter.**
+
+- **Architecture**: Clean state management, dynamic route updates, and local offline caching for real-time delivery logistics.
+- **Tech Stack**: `Dart` • `Flutter` • `REST APIs` • `Mobile UX`
+- **Link**: [🔗 GitHub Repository](https://github.com/Shahidkhan-0708/Food-Parcel-App)
+
+</details>
+
+<details open>
+<summary><h3><b>🔍 [02] Client_finder — High-Intent Prospect & Lead Pipeline</b></h3></summary>
+
+> **Automated lead discovery, business entity extraction, and outreach scraping pipeline.**
+
+- **Architecture**: Automated search aggregators parsing commercial entities, verifying contact endpoints, and staging qualified leads.
+- **Tech Stack**: `TypeScript` • `Node.js` • `Cheerio / Scrapers` • `Data Normalization`
+- **Link**: [🔗 GitHub Repository](https://github.com/Shahidkhan-0708/Client_finder)
+
+</details>
+
+<details open>
+<summary><h3><b>🛒 [03] The-Farmer-Market & Jungle-Market — Full-Stack Marketplace Ecosystem</b></h3></summary>
+
+> **High-throughput marketplace platform connecting local producers and buyers with real-time catalog management.**
+
+- **Architecture**: Scalable product indexing, role-based order processing, inventory sync, and interactive responsive UI.
+- **Tech Stack**: `TypeScript` • `React` • `Tailwind CSS` • `Node.js` • `PostgreSQL`
+- **Link**: [🔗 GitHub Repository](https://github.com/Shahidkhan-0708/The-Farmer-Market) • [🔗 The-Jungle-Market](https://github.com/Shahidkhan-0708/The-Jungle-Market)
+
+</details>
+
+<details open>
+<summary><h3><b>🧠 [04] GrowCus — AI Behavioral Operating System</b></h3></summary>
+
+> **Behavioral intelligence and habit-optimization operating system powered by adaptive AI workflows.**
+
+- **Architecture**: Tracks user habit patterns, analyzes focus telemetry, and delivers personalized interventions using adaptive LLM feedback loops.
+- **Live Deployment**: [grow-cus-new.vercel.app](https://grow-cus-new.vercel.app)
+- **Tech Stack**: `TypeScript` • `React` • `Vite` • `Tailwind CSS` • `OpenAI API`
+- **Link**: [🔗 GitHub Repository](https://github.com/Shahidkhan-0708/GrowCus)
+
+</details>
+
+<details open>
+<summary><h3><b>🧬 [05] ResearchX & NoCap-AI — Deep Research & LLM Synthesis Engines</b></h3></summary>
+
+> **Deep research extraction pipelines, entity verification, and LLM reasoning workflows.**
+
+- **Architecture**: Structured document reasoning, academic dataset synthesis, and automated factual verification for deep multi-modal research.
+- **Tech Stack**: `Python` • `Jupyter Notebook` • `LangChain` • `OpenAI / Claude` • `Vector Embeddings`
+- **Link**: [🔗 ResearchX](https://github.com/Shahidkhan-0708/ResearchX) • [🔗 NoCap-AI](https://github.com/Shahidkhan-0708/NoCap-AI)
+
+</details>
+
+<details open>
+<summary><h3><b>⚡ [06] Agent-Bridge — Autonomous Multi-Agent Interoperability Gateway</b></h3></summary>
+
+> **Modular orchestration bridge enabling distinct LLM agents to communicate over structured tool contracts.**
+
+- **Architecture**: Decoupled agent protocol translating task intents, managing state handoffs, and isolating worker tool executions.
+- **Tech Stack**: `Python` • `FastAPI` • `Pydantic` • `Multi-Agent Systems` • `Tool Use`
+- **Link**: [🔗 GitHub Repository](https://github.com/Shahidkhan-0708/Agent-Bridge)
+
+</details>
+
+<details open>
+<summary><h3><b>👑 [07] CareerRizz — Autonomous Career Intelligence & Multi-Worker Mesh</b></h3></summary>
+
+> **Flagship: Full-Stack Multi-Agent Platform for ATS Discovery, Semantic Vector Matching, and Rate-Limited Outreach.**
 
 ```text
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -79,69 +146,33 @@
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-- **Core Capabilities**:
-  - 🔄 **Realtime Ingestion**: Official API connectors for Greenhouse, Lever, Ashby & Adzuna with token-bucket rate limiters and canonical SHA-256 deduplication.
-  - 🎯 **1024-Dim Vector Match**: Dense semantic embeddings paired with structured LLM rubric grading (0–100 match score with detailed strengths & gaps).
-  - 🤖 **Autonomous Multi-Agent Mesh**: Independent Discovery, Research, Matching, and Application agents orchestrated via BullMQ.
-  - 🛡️ **Human-in-the-Loop Safety Gate**: Policy engine requiring human sign-off for high-stakes submissions and demographic questions.
-- **Tech Stack**: `React 19` • `TypeScript` • `Tailwind v4` • `Fastify` • `Node.js (ESM)` • `Supabase (PostgreSQL + RLS)` • `pgvector` • `BullMQ` • `Redis` • `Claude 3.7`
-- **Actions**: [📁 View Repository](https://github.com/Shahidkhan-0708/CareerRizz) • [📑 Technical Architecture](https://github.com/Shahidkhan-0708/CareerRizz/blob/main/Autonomous%20job%20search%20architecture.md)
-
-</details>
-
-<details open>
-<summary><h3><b>📬 02. AI Outreach Engine & Automated Reply Intelligence Hub</b></h3></summary>
-
-> **High-Reliability Lead Enrichment, Document OCR, and Real-Time Sentiment Classification**
-
-```text
-┌─────────────────────────────────────────────────────────────────────────┐
-│ [PDF / Image / XLSX] ─► [Tesseract OCR] ─► [OpenAlex / Wiki Research]  │
-│                                                            │            │
-│ [Gmail Webhook] ◄── [Sentiment Classifier] ◄── [Rate-Limited Brevo SMTP]│
-└─────────────────────────────────────────────────────────────────────────┘
-```
-
-- **Core Capabilities**:
-  - 📄 **Multi-Format Document Parsing**: Ingests leads from messy CSVs, spreadsheets, and scanned PDFs via Tesseract.js OCR.
-  - 🔍 **Evidence-Based Enrichment**: Pulls academic citations and company facts from OpenAlex and Wikipedia to generate 100% hallucination-free personalized emails.
-  - 📬 **Inbound Gmail Sentiment Triage**: Real-time OAuth webhook classifying replies (Interested, Info Requested, Not Interested, OOO) with automatic campaign suppression.
-  - 🔒 **Enterprise Compliance**: Signed one-click unsubscribe JWT tokens, daily quotas, and jittered concurrency dispatch.
-- **Tech Stack**: `Node.js` • `Express` • `OpenAI GPT-4o` • `Supabase` • `Nodemailer (Brevo)` • `Gmail OAuth2` • `Tesseract.js` • `Winston`
-- **Actions**: [📁 Explore Engine](https://github.com/Shahidkhan-0708/CareerRizz)
-
-</details>
-
-<details>
-<summary><h3><b>⚡ 03. High-Throughput LLM Gateway & Budget Governance Engine</b></h3></summary>
-
-> **Enterprise Proxy for Per-Candidate Rate Limiting, Model Tier Routing & Observability**
-
-- **Core Capabilities**:
-  - 💸 **Pre-Call Budget Protection**: Real-time Redis-backed budget tracking that halts runaway recursive agent loops before API calls are made.
-  - 🔀 **Tiered Model Routing**: High-volume parsing sent to Haiku/GPT-4o-mini; deep reasoning and personalized drafting routed to Claude Sonnet/Opus.
-  - 📊 **Telemetry & Evals**: Langfuse integration tracing every token, cost, and prompt regression against golden test datasets.
-- **Tech Stack**: `TypeScript` • `LiteLLM` • `Upstash Redis` • `Langfuse` • `Zod`
+- **Architecture**:
+  - 🔄 **Autonomous Ingestion**: Official API connectors (Greenhouse, Lever, Ashby, Adzuna) with token-bucket rate limiters & SHA-256 deduplication.
+  - 🎯 **1024-Dim Vector Match**: `pgvector` & Voyage AI cosine similarity paired with structured rubric evaluations (0–100 score + gap analysis).
+  - 🤖 **Distributed Agent Mesh**: BullMQ & Redis queues driving Discovery, Research, Matching, and Application agents.
+  - 📬 **Outreach & Reply Engine**: OCR lead ingestion (Tesseract), verified facts enrichment (OpenAlex/Wiki), and Gmail OAuth sentiment triage.
+- **Tech Stack**: `React 19` • `TypeScript` • `Tailwind v4` • `Fastify` • `Node.js` • `Supabase (Postgres + RLS)` • `pgvector` • `BullMQ` • `Redis` • `Claude 3.7`
+- **Link**: [🔗 GitHub Repository](https://github.com/Shahidkhan-0708/CareerRizz) • [📑 Complete Technical Architecture](https://github.com/Shahidkhan-0708/CareerRizz/blob/main/Autonomous%20job%20search%20architecture.md)
 
 </details>
 
 ---
 
-### 🛠️ Interactive Tech Matrix & Skill Ecosystem
+### 🛠️ Tech Matrix & Ecosystem
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,vite,tailwind,nodejs,express,fastify,postgres,supabase,redis,docker,githubactions,python,bash,git,linux,postman&perline=9&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,vite,tailwind,nodejs,express,fastify,postgres,supabase,redis,docker,githubactions,python,bash,git,linux,postman,flutter,dart&perline=10&theme=dark" />
 </div>
 
 <br/>
 
 <div align="center">
 
-| Domain | Core Technologies & Frameworks |
+| Domain | Technologies & Frameworks |
 |---|---|
 | **🧠 Agentic AI & Search** | Anthropic Claude 3.7 / 3.5, OpenAI GPT-4o, `pgvector`, Voyage AI Embeddings, Langfuse |
 | **⚙️ Distributed Backend** | Fastify, Express (ESM), BullMQ Queues, Upstash Redis, PostgreSQL (RLS), Nodemailer |
-| **🎨 Modern Frontend** | React 19, TypeScript, Tailwind CSS v4, Radix UI, Vite, TanStack Query, Zustand |
+| **🎨 Modern Frontend** | React 19, TypeScript, Tailwind CSS v4, Radix UI, Vite, TanStack Query, Flutter / Dart |
 | **🔧 Tooling & DevOps** | Turborepo, pnpm Workspaces, Docker, Playwright, GitHub Actions CI/CD |
 
 </div>
