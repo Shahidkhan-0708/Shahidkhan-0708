@@ -79,7 +79,7 @@
 
 ---
 
-### 🚀 Featured Systems & Flagship Projects
+### 🚀 Featured Systems & Flagship Architectures
 
 <details open>
 <summary><h3><b>👑 [01] CareerRizz — Autonomous Career Intelligence & Multi-Worker Mesh</b></h3></summary>
@@ -95,116 +95,99 @@
 ```
 
 - **Core Capabilities**:
-  - 🔄 **Autonomous Ingestion**: Official API connectors (Greenhouse, Lever, Ashby, Adzuna) with token-bucket rate limiters & SHA-256 deduplication.
-  - 🎯 **1024-Dim Vector Match**: `pgvector` & Voyage AI cosine similarity paired with structured rubric evaluations (0–100 score + gap analysis).
-  - 🤖 **Distributed Agent Mesh**: BullMQ & Redis queues driving Discovery, Research, Matching, and Application agents.
+  - 🔄 **Autonomous ATS Ingestion**: Official API connectors for Greenhouse, Lever, Ashby & Adzuna with token-bucket rate limiters & SHA-256 canonical deduplication.
+  - 🎯 **1024-Dim Vector Match**: `pgvector` & Voyage AI dense semantic matching paired with structured rubric evaluations (0–100 score + gap analysis).
+  - 🤖 **Distributed Agent Mesh**: BullMQ & Upstash Redis queues driving Discovery, Research, Matching, and Application worker pipelines.
   - 📬 **Outreach & Reply Engine**: OCR lead ingestion (Tesseract), verified facts enrichment (OpenAlex/Wiki), and Gmail OAuth sentiment triage.
-- **Tech Stack**: `React 19` • `TypeScript` • `Tailwind v4` • `Fastify` • `Node.js` • `Supabase (Postgres + RLS)` • `pgvector` • `BullMQ` • `Redis` • `Claude 3.7`
-- **Actions**: [📁 GitHub Repository](https://github.com/Shahidkhan-0708/CareerRizz) • [📑 Complete Architecture Spec](https://github.com/Shahidkhan-0708/CareerRizz/blob/main/Autonomous%20job%20search%20architecture.md)
+- **Tech Stack**: `React 19` • `TypeScript` • `Tailwind v4` • `Fastify` • `Node.js` • `Supabase (PostgreSQL + RLS)` • `pgvector` • `BullMQ` • `Redis` • `Claude 3.7`
+- **Actions**: [📁 GitHub Repository](https://github.com/Shahidkhan-0708/CareerRizz) • [📑 Architecture Spec](https://github.com/Shahidkhan-0708/CareerRizz/blob/main/Autonomous%20job%20search%20architecture.md)
 
 </details>
 
 <details open>
-<summary><h3><b>⚡ [02] Agent-Bridge — Autonomous Multi-Agent Interoperability Gateway</b></h3></summary>
+<summary><h3><b>🎙️ [02] NoCap AI — Sub-Second Real-Time Voice RAG Agent</b></h3></summary>
 
-> **Modular orchestration bridge enabling distinct LLM agents to communicate over structured tool contracts.**
-
-- **Core Capabilities**:
-  - 🌉 **Decoupled Agent Protocol**: Translates task intents, manages state handoffs, and isolates worker tool executions.
-  - 🔌 **Dynamic Tool Binding**: Connects custom Python toolchains into centralized agent execution graphs with failure recovery.
-- **Tech Stack**: `Python` • `FastAPI` • `Pydantic` • `Multi-Agent Systems` • `Tool Use`
-- **Actions**: [📁 GitHub Repository](https://github.com/Shahidkhan-0708/Agent-Bridge)
-
-</details>
-
-<details open>
-<summary><h3><b>🧠 [03] GrowCus — AI Behavioral Operating System</b></h3></summary>
-
-> **Behavioral intelligence and habit-optimization operating system powered by adaptive AI workflows.**
+> **Ultra-responsive, conversational voice assistant powered by LiveKit Agents, LlamaIndex RAG, and local LLMs.**
 
 - **Core Capabilities**:
-  - 📊 **Habit & Focus Telemetry**: Analyzes user focus patterns and productivity telemetry in real time.
-  - 🤖 **Adaptive Intervention**: Delivers personalized behavioral recommendations and habit-tracking loops via AI.
-- **Live Deployment**: [grow-cus-new.vercel.app](https://grow-cus-new.vercel.app)
-- **Tech Stack**: `TypeScript` • `React` • `Vite` • `Tailwind CSS` • `OpenAI API`
-- **Actions**: [📁 GitHub Repository](https://github.com/Shahidkhan-0708/GrowCus)
-
-</details>
-
-<details open>
-<summary><h3><b>🧬 [04] ResearchX — Automated Deep Research & Academic Synthesis Engine</b></h3></summary>
-
-> **Deep research extraction pipelines, entity verification, and multi-source academic synthesis.**
-
-- **Core Capabilities**:
-  - 📚 **Multi-Source Data Ingestion**: Crawls and aggregates scientific papers, market data, and technical whitepapers.
-  - 🔍 **Structured Knowledge Extraction**: Synthesizes complex multi-page documents into structured insights and evidence trees.
-- **Tech Stack**: `Python` • `Jupyter Notebook` • `LangChain` • `OpenAI / Claude` • `Vector Embeddings`
-- **Actions**: [📁 GitHub Repository](https://github.com/Shahidkhan-0708/ResearchX)
-
-</details>
-
-<details open>
-<summary><h3><b>🎯 [05] NoCap-AI — Factual Verification & LLM Hallucination Guard</b></h3></summary>
-
-> **Factual verification engine ensuring AI outputs strictly adhere to verified ground truth facts.**
-
-- **Core Capabilities**:
-  - 🛡️ **Anti-Hallucination Gate**: Cross-references LLM-generated assertions against source knowledge bases before delivery.
-  - ⚖️ **Confidence Scoring**: Assigns provenance and fact-consistency scores to every generated claim.
-- **Tech Stack**: `Python` • `OpenAI API` • `NLP` • `Prompt Engineering` • `Automated Evals`
+  - ⚡ **Sub-Second Voice-to-Voice Streaming**: End-to-end streaming bridge linking AssemblyAI speech recognition, LlamaIndex RAG retrieval, and Cartesia Sonic-2 TTS audio synthesis.
+  - 📚 **Grounded Local RAG**: Answers user questions strictly using vectorized PDFs (`bge-small-en-v1.5`) with persistent `chat-engine-storage` to prevent hallucinations.
+  - 🗣️ **Intelligent Interruption & Turn-Taking**: Pre-warmed in-memory Silero VAD detects user speech during agent output and interrupts audio streams with zero latency.
+- **Tech Stack**: `Python` • `LiveKit 1.8+ Agents` • `LlamaIndex` • `Ollama (Gemma3)` • `Cartesia Sonic-2 TTS` • `AssemblyAI STT` • `Silero VAD`
 - **Actions**: [📁 GitHub Repository](https://github.com/Shahidkhan-0708/NoCap-AI)
 
 </details>
 
 <details open>
-<summary><h3><b>🌾 [06] The-Farmer-Market — AI Crop Ripeness Detection & Produce Platform</b></h3></summary>
+<summary><h3><b>⚡ [03] Snatched.ai — Semantic Codebase Intelligence & Retrieval Q&A</b></h3></summary>
 
-> **Agricultural intelligence platform featuring AI/computer vision crop ripeness detection and direct farm-to-consumer goods management.**
+> **Local-first, line-precise Codebase Intelligence Engine that ingests, tokenizes, vectors, and analyzes multi-language repositories.**
 
 - **Core Capabilities**:
-  - 🍎 **Computer Vision Produce Grading**: Automated visual ripeness detection and quality assessment for harvested crops.
-  - 🚜 **Direct Producer Exchange**: Real-time supply tracking and direct logistics channel connecting farmers with local markets.
-- **Tech Stack**: `TypeScript` • `React` • `Computer Vision / AI` • `Tailwind CSS` • `Node.js` • `PostgreSQL`
+  - 📐 **Line-Preserving Token Sliding Window**: 512-token windows with 128-token overlap powered by `tiktoken` (cl100k_base), preserving exact start/end line boundaries.
+  - ⚡ **ChromaDB HNSW Vector Store**: Dense embedding retrieval with cosine distance metric and repository-scoped filtering.
+  - 🗄️ **Relational Traceability**: Dual-storage with SQLite recording index runs, file hashes, chunk metadata, user queries, latency breakdowns, and exact file/line citations.
+  - 💻 **Rich CLI Experience**: Interactive terminal dashboards, progress monitors, and syntax-highlighted answers via Click and Rich.
+- **Tech Stack**: `Python` • `ChromaDB` • `SQLite` • `tiktoken` • `Google Gemini 2.5 Flash / Ollama (Qwen3)` • `Click` • `Rich`
+- **Actions**: [📁 GitHub Repository](https://github.com/Shahidkhan-0708/Snatched.ai)
+
+</details>
+
+<details open>
+<summary><h3><b>🔬 [04] ResearchX — Production Agentic RAG Microservice</b></h3></summary>
+
+> **High-throughput Agentic RAG microservice powered by CrewAI, LitServe, and Groq LPUs.**
+
+- **Core Capabilities**:
+  - 🤖 **Collaborative Agent Crew**: Autonomous Researcher and Technical Writer agents executing real-time multi-source exploration.
+  - 💡 **Deep Stack Overflow Tool**: Custom tool querying StackExchange 2.3 API with markdown body filters to fetch accepted solutions, vote scores, and clean code blocks.
+  - 🚀 **LitServe Async Microservice**: Production-ready, asynchronous model-serving HTTP backend (port 8000) delivering fast JSON responses to streaming CLI clients.
+- **Tech Stack**: `Python` • `CrewAI` • `LitServe` • `Groq API (LPU Inference)` • `StackExchange API` • `Google SerperDevTool`
+- **Actions**: [📁 GitHub Repository](https://github.com/Shahidkhan-0708/ResearchX)
+
+</details>
+
+<details open>
+<summary><h3><b>🌾 [05] The Farmer Market (FreshGuard) — Biological Physics & Spatial Logistics Engine</b></h3></summary>
+
+> **AI-powered post-harvest decision engine combining computer vision, Q10 biological decay physics, and PostGIS spatial rerouting (SIH 2024).**
+
+- **Core Capabilities**:
+  - 📸 **3-Tier Produce Quality Scanner**: Laplacian 2D gradient blur check + Google Gemini 2.5 Flash / local colorimetric fallbacks predicting AGMARK scores and fungal pathogens.
+  - 🧬 **Q10 Respiration Kinetics & Ethylene Engine**: Calculates exponential thermal spoilage velocity and autocatalytic ethylene gas accumulation during transit.
+  - 🛡️ **PostGIS Plan-B Spatial Salvage**: Spatial radius queries (`ST_DWithin`, GiST indexing) automatically rerouting at-risk shipments to secondary cold storage facilities.
+  - 🔐 **Cryptographic QR Crop Passport**: Immutable HMAC-SHA256 signed provenance token verified in constant time (`hmac.compare_digest`) for B2B buyers (Zepto/Blinkit).
+- **Tech Stack**: `FastAPI` • `PostgreSQL 15 / PostGIS` • `TimescaleDB` • `React Native (Expo)` • `Google Gemini 2.5 Flash` • `Python`
 - **Actions**: [📁 GitHub Repository](https://github.com/Shahidkhan-0708/The-Farmer-Market)
 
 </details>
 
 <details open>
-<summary><h3><b>🎨 [07] The-Jungle-Market — E-Commerce Marketplace for Artisans</b></h3></summary>
+<summary><h3><b>🧠 [06] GrowCus — Student Growth & Academic Risk Operating System</b></h3></summary>
 
-> **Dedicated e-commerce marketplace platform empowering local artisans and handmade craftspeople with digital storefronts.**
+> **Full-stack coaching management platform with early academic risk calculation and AI-powered guidance.**
 
 - **Core Capabilities**:
-  - 🛍️ **Artisan Storefronts & Catalog**: High-performance product showcase, bespoke item customization options, and multi-merchant inventory sync.
-  - 💳 **Seamless Commerce Workflow**: Integrated secure checkout, order fulfillment tracking, and responsive creator dashboard.
-- **Tech Stack**: `JavaScript / TypeScript` • `React` • `Node.js` • `Express` • `E-Commerce Architecture`
-- **Actions**: [📁 GitHub Repository](https://github.com/Shahidkhan-0708/The-Jungle-Market)
+  - 📊 **Academic Risk Engine**: Mathematical risk calculation converting attendance, test marks, and task completion signals into actionable alerts.
+  - 🤖 **Aria AI Assistant**: Groq LPU conversational assistant delivering subject-level guidance and student motivation.
+  - 🔐 **Secure Session Architecture**: HTTP-Only cookie-based JWT authentication protecting against XSS, paired with Redis caching for aggregation queries.
+- **Live Deployment**: [grow-cus-new.vercel.app](https://grow-cus-new.vercel.app)
+- **Tech Stack**: `Next.js` • `React` • `TypeScript` • `Node.js` • `Express` • `MongoDB Atlas` • `Redis` • `Groq SDK`
+- **Actions**: [📁 GitHub Repository](https://github.com/Shahidkhan-0708/GrowCus)
 
 </details>
 
 <details open>
-<summary><h3><b>🔍 [08] Client_finder — High-Intent Prospect & Lead Scraping Pipeline</b></h3></summary>
+<summary><h3><b>🔍 [07] Client Finder — B2B Lead Discovery & Digital Gap Radar</b></h3></summary>
 
-> **Automated lead discovery, business entity extraction, and outreach scraping pipeline.**
+> **Lead discovery engine analyzing local business data to detect digital presence gaps and generate AI pitch angles.**
 
 - **Core Capabilities**:
-  - 🕷️ **Targeted Entity Scraping**: Automatically identifies high-intent commercial entities and extracts verified contact endpoints.
-  - 🧹 **Data Sanitization**: Normalizes messy public directory listings into structured, validated CRM lead records.
-- **Tech Stack**: `TypeScript` • `Node.js` • `Cheerio` • `Scraping & Normalization`
+  - 🗺️ **OpenStreetMap Ingestion**: Overpass API query engine searching local businesses by geographic bounds and amenity categories.
+  - 🎯 **Digital Gap Score Algorithm**: Quantifies missing digital infrastructure (website, phone, email) to highlight high-value sales opportunities.
+  - 💡 **AI Sales Pitch Generator**: Groq LLM generating personalized outreach angles based on detected digital presence deficiencies.
+- **Tech Stack**: `Next.js 16` • `React 19` • `TypeScript` • `Node.js` • `Express` • `MongoDB` • `Groq SDK` • `Overpass API`
 - **Actions**: [📁 GitHub Repository](https://github.com/Shahidkhan-0708/Client_finder)
-
-</details>
-
-<details open>
-<summary><h3><b>📦 [09] Food-Parcel-App — Cross-Platform Logistics Mobile Client</b></h3></summary>
-
-> **Mobile delivery dispatch and parcel tracking client built with Dart & Flutter.**
-
-- **Core Capabilities**:
-  - 📱 **Mobile Dispatch**: Clean state management, dynamic delivery status updates, and offline caching for logistics.
-- **Tech Stack**: `Dart` • `Flutter` • `REST APIs` • `Mobile UX`
-- **Actions**: [📁 GitHub Repository](https://github.com/Shahidkhan-0708/Food-Parcel-App)
 
 </details>
 
