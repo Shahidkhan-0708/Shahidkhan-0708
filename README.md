@@ -1,458 +1,138 @@
-# Shahid Khan
+<div align="center">
 
-### Backend Engineer | Node.js · Systems · AI Integrations
+  # ⚡ Shahid Khan
+  ### **Full-Stack Systems Engineer & Agentic AI Architect**
+  
+  [![GitHub Followers](https://img.shields.io/github/followers/Shahidkhan-0708?style=for-the-badge&logo=github&color=0d1117&labelColor=161b22)](https://github.com/Shahidkhan-0708)
+  [![Profile Views](https://komarev.com/ghpvc/?username=Shahidkhan-0708&color=00f2fe&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/Shahidkhan-0708)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+  [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Shahidkhan07191@gmail.com)
 
-I'm a Computer Science student focused on **Backend Engineering, Systems, and AI Integrations**.
+  ```text
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │  > const engineer = {                                                  │
+  │      focus: ["Autonomous Agents", "Distributed Queues", "Vector DBs"], │
+  │      philosophy: "Deterministic Systems + Agentic Intelligence",       │
+  │      status: "Building next-gen AI automation pipelines & platforms"   │
+  │    };                                                                  │
+  └────────────────────────────────────────────────────────────────────────┘
+  ```
 
-I enjoy building backend systems, working with APIs and databases, and understanding what happens underneath the abstractions. Recently, my focus has expanded toward **AI agents, LLM integrations, automation, and system design**.
-
-I learn primarily by building real systems, debugging them, and going deeper into the concepts behind the problems I encounter.
-
----
-
-## What I Work With
-
-### Backend
-
-`Node.js` `Express.js` `JavaScript` `TypeScript`
-
-* REST APIs
-* Authentication & Authorization
-* Middleware
-* Error handling
-* API validation
-* Rate limiting
-* Logging
-* Asynchronous programming
-* Backend architecture
-
-### Databases
-
-`MongoDB` `PostgreSQL` `Prisma` `Redis`
-
-I'm particularly interested in how database design affects application performance and reliability.
-
-Currently going deeper into:
-
-* PostgreSQL
-* Prisma
-* Database indexing
-* Transactions
-* Atomic operations
-* Redis
-* Caching
-* Connection pooling
-
-### AI & AI Integrations
-
-`LLMs` `LangChain` `AI Agents` `Google ADK` `Vertex AI`
-
-I'm interested less in simply calling an LLM and more in understanding how AI becomes part of an actual system.
-
-Areas I'm exploring:
-
-* LLM integrations
-* AI agents
-* Tool calling
-* Agent workflows
-* RAG
-* Multimodal AI
-* AI-powered automation
-* AI + backend systems
-
-### Infrastructure & Tools
-
-`Docker` `Git` `GitHub` `Postman` `Google Cloud`
+  <p align="center">
+    <a href="#-featured-systems--architectures"><b>Featured Systems</b></a> •
+    <a href="#-tech-stack--ecosystem"><b>Tech Matrix</b></a> •
+    <a href="#-telemetry--activity-metrics"><b>Telemetry & Activity</b></a> •
+    <a href="#-engineering-principles"><b>Principles</b></a>
+  </p>
+</div>
 
 ---
 
-# Projects
+### 🧬 About Me
 
-## Email-Automation
-
-A backend automation system for handling email outreach and follow-ups.
-
-The system is designed around an automated workflow where emails move through different states instead of being treated as isolated API requests.
-
-### Current concepts
-
-* Email sending
-* SMTP integration
-* Automated follow-ups
-* State-machine based workflow
-* Job processing
-* Database-backed task management
-* Claiming and processing jobs
-* Error handling
-* Logging
-* API design
-
-One of the interesting parts of this project is designing the backend so that multiple processes can work on email tasks without accidentally processing the same task at the same time.
-
-This project has pushed me deeper into **state machines, concurrency, atomic database operations, and reliable background processing**.
-
----
-
-# GrowCus
-
-### AI Behavioural Operating System
-
-GrowCus is one of my main projects and an ongoing exploration into building systems around structured workflows, data, and AI.
-
-The project has involved working with:
-
-`TypeScript` `Node.js` `MongoDB` `Redis` `Next.js`
-
-My work has focused heavily on the backend side of the system.
-
-### Areas I've worked on
-
-* Backend APIs
-* Database architecture
-* Authentication
-* Dashboard systems
-* Redis caching
-* Performance optimization
-* Atomic updates
-* Data modeling
-* API architecture
-
-A major problem I worked on was reducing the latency of dashboard operations.
-
-Instead of repeatedly calculating expensive statistics from raw data, I explored approaches involving **caching, precomputation, and atomic updates**.
-
-This project has been one of the main reasons I've become interested in backend performance and system design.
-
----
-
-# Agent-Bridge
-
-An exploration into connecting AI agents with external tools and systems.
-
-The project is part of my broader experimentation with **agentic systems and AI integrations**.
-
-I'm particularly interested in the problem of moving from:
-
-```text
-LLM
- ↓
-Generate Response
+```bash
+$ cat shahid.json
 ```
 
-toward:
-
-```text
-Agent
- ↓
-Understand Task
- ↓
-Choose Tool
- ↓
-Execute Action
- ↓
-Observe Result
- ↓
-Continue Reasoning
- ↓
-Complete Task
-```
-
-This is an area I'm actively learning rather than presenting as a finished production system.
-
----
-
-# LangChain
-
-I've been exploring LangChain and the ecosystem around **LLM application development**.
-
-My interest here is understanding how frameworks can be used to build:
-
-* Agent workflows
-* Tool calling
-* Retrieval systems
-* LLM pipelines
-* Structured outputs
-* AI-powered applications
-
-I prefer understanding the underlying concepts rather than treating frameworks as black boxes.
-
----
-
-# Client Finder
-
-A project focused on building systems around finding and managing potential clients.
-
-The project has given me practical experience with:
-
-* TypeScript
-* Backend logic
-* Data handling
-* APIs
-* Automation-oriented workflows
-
-It is part of my broader interest in building software that automates repetitive processes.
-
----
-
-# UU Student Ecosystem
-
-A student-focused ecosystem project that I have contributed to and explored as part of collaborative development.
-
-The repository is a fork of the original project, so I distinguish it from projects that I built independently.
-
----
-
-# DSA
-
-I regularly practice **Data Structures and Algorithms using C++**.
-
-### 200+ LeetCode Problems
-
-My DSA practice includes:
-
-* Arrays
-* Strings
-* Hashing
-* Two Pointers
-* Sliding Window
-* Prefix Sum
-* Binary Search
-* Sorting
-* Linked Lists
-* Stack
-* Queue
-* Trees
-* BST
-* AVL Trees
-* Graphs
-* Recursion
-* Backtracking
-* Dynamic Programming
-* Bit Manipulation
-* XOR
-
-My goal isn't just to increase the number of solved problems.
-
-I focus on understanding **patterns, complexity, and why a particular approach works**.
-
----
-
-# AI & Systems
-
-My current technical interests are moving toward the intersection of **Backend Engineering and AI**.
-
-```text
-Backend Systems
-      +
-Databases
-      +
-Caching
-      +
-Automation
-      +
-LLMs
-      +
-AI Agents
-      +
-Cloud
-```
-
-I'm particularly interested in questions such as:
-
-* How should AI agents interact with real backend systems?
-* How do you make AI workflows reliable?
-* How should long-running tasks be processed?
-* How do you prevent duplicate processing?
-* How should state be persisted?
-* Where should caching happen?
-* How do you design systems around unreliable external APIs?
-* How do AI systems fit into conventional backend architecture?
-
-These questions are currently shaping what I build and what I learn.
-
----
-
-# Cloud & AI Platforms
-
-I've also worked through hands-on experimentation with **Google Cloud and Vertex AI**.
-
-Areas I've explored include:
-
-* Google Cloud networking
-* VPCs
-* Subnets
-* Load Balancing
-* Firewall configuration
-* Cloud Run
-* Vertex AI
-* Google ADK
-* AI agent deployment
-* Retrieval pipelines
-
-I'm interested in understanding the complete path from:
-
-```text
-Local Application
-      ↓
-Backend
-      ↓
-AI Integration
-      ↓
-Containerization
-      ↓
-Cloud Deployment
-      ↓
-Production System
+```json
+{
+  "name": "Shahid Khan",
+  "role": "Full-Stack Engineer & AI Automation Builder",
+  "location": "Global / Remote",
+  "core_domains": [
+    "Autonomous Multi-Agent Orchestration",
+    "High-Throughput Distributed Queues & Workers",
+    "Semantic Vector Retrieval & RAG Architecture",
+    "Production Full-Stack Web Applications (React 19, TypeScript, Node.js)"
+  ],
+  "current_focus": "Scaling event-driven worker pipelines and autonomous LLM policy engines"
+}
 ```
 
 ---
 
-# Problem Solving
+### 🛠️ Tech Stack & Ecosystem
 
-### LeetCode
+<div align="center">
 
-**200+ problems solved**
+#### **Languages & Core Runtimes**
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-I primarily use **C++** for DSA.
+#### **Agentic AI & Intelligence**
+![Claude 3.7 / 3.5](https://img.shields.io/badge/Anthropic_Claude-D97706?style=for-the-badge&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Voyage AI](https://img.shields.io/badge/Voyage_AI_Embeddings-059669?style=for-the-badge)
+![Langfuse](https://img.shields.io/badge/Langfuse_Observability-1E293B?style=for-the-badge)
 
-Problem solving has been an important part of my development because it has helped me become more comfortable with:
+#### **Backend & Distributed Systems**
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ_Queues-FF4500?style=for-the-badge)
+![Redis](https://img.shields.io/badge/Redis_Upstash-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase_Postgres-3ECF8E?style=for-the-badge&logo=supabase&logoColor=black)
 
-* Breaking down problems
-* Identifying patterns
-* Thinking about complexity
-* Optimizing solutions
-* Debugging incorrect approaches
+#### **Frontend & UI Engineering**
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Radix UI](https://img.shields.io/badge/Radix_UI-161618?style=for-the-badge&logo=radixui&logoColor=white)
 
----
+#### **DevOps, Testing & Tooling**
+![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=for-the-badge&logo=turborepo&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-# Achievements
-
-### Google Hackathon
-
-**2nd Rank — Google Hackathon, Bangalore**
-
-### Placement Assessment
-
-**1st among 1000+ students**
-
-### Problem Solving
-
-**200+ LeetCode Problems Solved**
-
----
-
-# Open Source
-
-I'm interested in contributing to open-source projects and learning how real-world codebases are maintained.
-
-I've explored ecosystems and programs including:
-
-* **MLH Fellowship**
-* **Google Summer of Code**
-* **LFX Mentorship**
-* AI/ML open-source projects
-* Developer communities
-
-I'm particularly interested in contributing to projects where I can work with unfamiliar codebases and solve real engineering problems.
+</div>
 
 ---
 
-# Currently Learning
+### 🚀 Featured Systems & Architectures
 
-My current learning direction is:
+#### 1. [CareerRizz — Autonomous Job Search & Career Intelligence Platform](https://github.com/Shahidkhan-0708/CareerRizz)
+*An end-to-end autonomous multi-agent platform for job discovery, semantic scoring, and verified outreach.*
+- **ATS Ingestion Pipeline**: High-throughput official API adapters (Greenhouse, Lever, Ashby, Adzuna) with token-bucket rate limiters and canonical hash deduplication.
+- **Vector Match Engine**: Embeds candidate profiles and job requirements into 1024-dim space using `pgvector` & Voyage AI, coupled with structured LLM rubric grading.
+- **Agent Intelligence**: Dedicated Research, Matching, and Application agents orchestrated via BullMQ and Redis queues with strict budget governance circuit breakers.
+- **Tech**: React 19, TypeScript, Fastify/Express, Supabase (Postgres + RLS), BullMQ, Anthropic Claude, Tailwind CSS v4.
 
-```text
-Node.js
-   ↓
-Backend Architecture
-   ↓
-PostgreSQL + Prisma
-   ↓
-Redis + Caching
-   ↓
-Concurrency
-   ↓
-Background Jobs
-   ↓
-System Design
-   ↓
-Distributed Systems
-   ↓
-AI Integrations
-   ↓
-AI Agents
-```
-
-I'm trying to move beyond simply knowing frameworks and toward understanding the **engineering principles underneath them**.
+#### 2. [AI Outreach Engine & Reply Intelligence Hub](https://github.com/Shahidkhan-0708/CareerRizz)
+*High-reliability cold outreach automation pipeline with evidence citations and automated sentiment triage.*
+- **Multi-Format Ingestion**: Ingests leads from CSV/XLSX/PDFs with OCR text parsing via Tesseract.
+- **Evidence-Based Enrichment**: Pulls academic and company context from OpenAlex, Wikipedia, and search APIs to generate hallucination-free personalized pitches.
+- **Inbound Reply Classification**: Gmail OAuth webhooks that ingest replies and classify sentiment (Interested, Follow-up, Declined, Out of Office) in real time.
+- **Tech**: Node.js ESM, OpenAI, Supabase, Nodemailer, Gmail OAuth2, Winston.
 
 ---
 
-# Development Philosophy
+### 📊 Telemetry & Activity Metrics
 
-I learn by building.
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Shahidkhan-0708&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Shahid's GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shahidkhan-0708&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="48%" />
+</div>
 
-```text
-Build
-  ↓
-Encounter a Problem
-  ↓
-Debug
-  ↓
-Understand the Root Cause
-  ↓
-Learn the Concept
-  ↓
-Improve the System
-  ↓
-Build Again
-```
-
-I don't want to learn technologies just for the sake of adding them to a stack.
-
-I want to understand **where they are useful, what problems they solve, what trade-offs they introduce, and what happens internally**.
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shahidkhan-0708&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
+</div>
 
 ---
 
-# GitHub
+### ⚙️ Engineering Principles
 
-Most of my repositories are experiments, projects, or learning implementations around **Backend Development, AI, Systems, and Problem Solving**.
-
-Some of the projects currently visible on my profile include:
-
-* `Email-Automation`
-* `GrowCus`
-* `Agent-Bridge`
-* `Langchain`
-* `Client_finder`
-* `UU-Student-Ecosystem`
-* `Food-Parcel-App`
-* `Port-Folio`
-* `Shahid-s-repository` — DSA
-* `To-Do-app`
-
-I also maintain and explore forks of open-source projects to understand existing codebases and development practices.
+1. **Determinism over Chaos**: Deterministic code handles data pipelines, queues, and transactions. LLMs reason, classify, and draft within structured schemas.
+2. **Observability by Design**: Every background agent and autonomous action logs an execution trace with token spend, latency, and inputs/outputs.
+3. **Zero Hallucination Tolerance**: Outreach systems generate arguments using verified citation links and facts, not unconstrained AI creativity.
+4. **Boring Infra Scales**: PostgreSQL + Redis + BullMQ solves 99% of distributed problems before reaching for complex microservice mesh overhead.
 
 ---
 
-# GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shahidkhan-0708&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shahidkhan-0708&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
-</p>
-
----
-
-# Connect
-
-**GitHub:** [Shahidkhan-0708](https://github.com/Shahidkhan-0708)
-
-**Email:** [Shahidkhan07191@gmail.com](mailto:Shahidkhan07191@gmail.com)
-
-**LinkedIn:** [Shahid Khan](https://www.linkedin.com/in/shahid-k-007b3b380/)
-
----
-
-### Backend Engineering. Systems. AI Integrations.
-
-Building, debugging, and understanding systems one problem at a time.
+<div align="center">
+  <sub>Designed & built with ⚡ by <b>Shahid Khan</b> • Always shipping high-impact software.</sub>
+</div>
